@@ -1,0 +1,421 @@
+/* header css */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    /* font-family: atyp display trial ; */
+  
+  }
+  
+  .header img {
+    height: 60px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 400; 
+    text-decoration: none;
+   
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #f58220;
+  }
+  
+  .navbar ul li h1 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .navbar ul button {
+    margin-left: 20px;
+    padding: 8px 16px;
+    border: none;
+    background-color:#f58220;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar ul button:hover {
+    background-color: #0056b3;
+  }
+  .logo{
+    margin-left: 25px;
+  }
+ 
+.navbar ul li .dot {
+    color: #000000; /* Dot color */
+    font-size: 25px;
+    margin-right: 8px; /* Spacing between the dot and text */
+  }
+
+  /* home */
+ /* style.css */
+.home-background {
+    background-image: url('../Assets/women.jpg'); /* Adjust the path as needed */
+    background-size: cover;
+    background-position: center;
+    height: 734px; /* Example height */
+    width: 100%;
+  }
+  .home-title{
+    font-family: 'Atyp Display TRIAL', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+   position:absolute;
+   top: 123px;
+   left: 77px;
+  }
+  .modern{
+    color: #f58220;
+  }
+  .rating{
+    position:absolute;
+    top: 400px;
+    left: 77px;
+  }
+  .card{
+    position:absolute;
+    top: 200px;
+    right: 77px;
+  }
+
+  /* widget */
+  .widget{
+    background-color:#000000;
+    height: 150px;
+  }
+  .widgets img {
+    position: absolute; /* Allows precise positioning */
+    bottom: -200px; /* Move the image downwards to project outside */
+    left: 50%; /* Center horizontally relative to the widget */
+    transform: translateX(-50%); /* Center the image precisely */
+    max-width: 120%; /* Slightly larger than the container for projection */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1; /* Ensures the image appears above other elements */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for effect */
+  }
+
+  /* gallary */
+  .gallary{
+    background-color:#000000;
+    height: 250px;
+    color:white ;
+  }
+  .lorem{
+    font-family: poppins;
+  }
+
+  .photocard {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
+    justify-content: center; /* Centers items horizontally */
+    gap: 20px; /* Space between cards */
+  }
+  
+  /* Individual Photo Card */
+  .photocard > div {
+    /* White card background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    overflow: hidden;
+    width: 220px; /* Fixed width for consistent layout */
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .photocard > div:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+
+  }
+  
+  /* Photo Styling */
+  .photocard img {
+    width: 100%; /* Make image fit the card width */
+    height: 200px; /* Fixed height for consistent layout */
+    object-fit: cover; /* Ensures image scales properly */
+    border-radius: 10px 10px 0 0; /* Rounded corners for the top of the card */
+  }
+  
+  /* Doctor's Name */
+  .photocard h2 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Profession Text */
+  .photocard p {
+    font-size: 0.9rem;
+    color:  #9E9E9E;
+
+    margin: 0;
+  }
+  .view{
+    margin-left: 20px;
+
+    padding: 8px 16px;
+    border: none;
+    background-color:#f58220;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 42px;
+  }
+  /* gallary2css */
+
+/* Heading Section */
+
+.gallary2{
+  margin-top: 300px;
+}
+/* Two Division Container */
+.two {
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Space out the two divisions */
+  align-items: center; /* Align items vertically in the center */
+  gap: 5px; /* Add space between the two sections */
+  padding: 20px; /* Optional padding around the container */
+}
+
+/* Heading Division */
+.two h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* Paragraph Division */
+.two p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 600px; /* Optional: Limit paragraph width for readability */
+}
+.two > div {
+  margin-right: 5px; /* Adjust margin if needed */
+}
+
+/* Photo Card Container */
+.phocard2 {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center the cards horizontally */
+}
+
+/* Individual Photo Card */
+.phocard2 > div {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  overflow: hidden;
+  width: 300px; /* Fixed width for consistent layout */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.phocard2 > div:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Photo Styling */
+.phocard2 img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Match card's rounded corners */
+  margin-bottom: 15px;
+}
+
+/* Text Inside Photo Card */
+.phocard2 p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Price Styling */
+.phocard2 .aed {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:#f58220; /* Highlighted red color for price */
+  margin: 15px 0;
+}
+
+ .apoint{
+  color: white;
+  background-color: #000000;
+  padding: 8px 16px;
+  cursor: pointer;
+ } 
+ /* blogs */
+ .top{
+  display: flex;
+ background-color:#FFFAF5 ;
+ margin-bottom: -20px;
+ padding-bottom: 85px;
+ }
+/* Photocard Blogs Section */
+.photocard-blogs {
+  display: flex;
+  flex-wrap: wrap; /* Wrap cards to a new row if space is insufficient */
+  gap: 15px; /* Add space between cards */
+  justify-content: space-between; /* Spread cards evenly */
+}
+
+/* Individual Photocard */
+.photocard-blogs div {
+  background-color: #fff; /* White background for the cards */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  width: calc(20% - 15px); /* Decrease size: 5 cards per row */
+  text-align: center;
+  padding: 10px; /* Reduce padding */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.photocard-blogs div:hover {
+  transform: translateY(-5px); /* Slight upward lift on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Card Image */
+.photocard-blogs img {
+  width: 100%;
+  height: 150px; /* Reduce height of the image */
+  object-fit: cover; /* Maintain aspect ratio and crop overflow */
+  border-bottom: 1px solid #ddd; /* Separator below the image */
+  border-radius: 8px 8px 0 0; /* Rounded corners for the top of the card */
+}
+
+/* Card Title */
+.photocard-blogs h3 {
+  font-size: 1rem; /* Decrease font size */
+  color: #333;
+  margin: 10px 0 8px; /* Adjust spacing around the title */
+}
+
+/* Card Description */
+.photocard-blogs p {
+  font-size: 0.8rem; /* Decrease font size */
+  color: #666;
+  margin-bottom: 10px; /* Add space between description and button */
+  line-height: 1.4; /* Adjust line height */
+}
+
+/* Read More Button */
+.photocard-blogs button {
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 12px; /* Reduce button size */
+  font-size: 0.8rem; /* Smaller font size */
+  font-weight: bold;
+  cursor: pointer; /* Pointer cursor for interactivity */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.photocard-blogs button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .photocard-blogs div {
+    width: calc(33% - 15px); /* Smaller size: 3 cards per row on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .photocard-blogs div {
+    width: calc(50% - 15px); /* Smaller size: 2 cards per row on small screens */
+  }
+}
+
+/* faq */
+.faq-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-container h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.faq-item {
+  margin-bottom: 25px;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.faq-item:hover {
+  background-color: #f1f1f1;
+  border-color:#FFFAF5;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.toggle-icon {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+

@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Blogs from './Components/Blogs';
+import Booking from './Components/Booking';
+import Carousal from './Components/Carousal';
+import Faq from './Components/Faq';
+import Footer from './Components/Footer';
+import Gallary from './Components/Gallary';
+import Gallary2 from './Components/Gallary2';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import Promotions from './Components/Promotions';
+import Services from './Components/Services';
+import Widget from './Components/Widget';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header/>
+    <Home/>
+    <Widget/>
+    <Services/>
+    <Gallary/>
+    <Gallary2/>
+    <Carousal/>
+    <Promotions/>
+    <Blogs/>
+    <Faq/>
+    <Booking/>
+    <Footer/>
+
     </div>
   );
 }
